@@ -1,0 +1,14 @@
+# Pasta de dependências do Node.js
+n8n-nodes-random/node_modules
+
+# Pasta com o código compilado (pode ser gerada novamente)
+n8n-nodes-random/dist
+
+# Logs do NPM
+n8n-nodes-random/npm-debug.log*
+n8n-nodes-random/yarn-debug.log*
+n8n-nodes-random/yarn-error.log*
+
+# Dados gerados pelo Docker
+n8n-data/
+postgres-data/

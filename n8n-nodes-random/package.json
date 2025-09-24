@@ -1,0 +1,24 @@
+{
+  "name": "n8n-nodes-random",
+  "version": "1.0.0",
+  "description": "Custom n8n node to generate a true random number from Random.org.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/Random.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "n8n-workflow": "*",
+    "typescript": "~5.4.5"
+  }
+}
